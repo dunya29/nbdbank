@@ -1333,6 +1333,11 @@ img {
     background-color: #fd8a02;
   }
 }
+@media screen and (max-width: 767px) {
+  .mobile-menu__item.highlighted .iconsvg_mobile-menu {
+    width: 30px
+  }
+}
 @media screen and (max-width: 575px) {
   .mobile-menu__item.highlighted {
     margin-left: -10px;
