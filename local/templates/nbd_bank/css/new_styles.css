@@ -1293,6 +1293,9 @@ img {
   width: 93px;
   height: 93px;
 }
+.mobile-menu__item {
+  padding: 0 10px;
+}
 .mobile-menu__item.highlighted {
   padding: 10px;
   background: #fd8a02;
@@ -1339,7 +1342,7 @@ img {
   }
 }
 @media screen and (max-width: 575px) {
-  .mobile-menu__item.highlighted {
+  .mobile-menu__item {
     margin-left: -10px;
     margin-right: -10px;
   }
