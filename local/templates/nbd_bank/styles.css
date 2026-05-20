@@ -1,0 +1,13 @@
+.font-bold {
+    font-family: bold !important;
+}
+.field-text__input-wrap.radio label{
+    margin-right: 10px;
+    cursor: pointer;
+}
+.form.form_panel .type-container{
+    display: none;
+}
+.form.form_panel .type-container.active{
+    display: block;
+}

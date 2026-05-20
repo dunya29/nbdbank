@@ -1,0 +1,38 @@
+.footer__apps-caption {
+	font-family: light;
+	font-size: 1.5rem;
+	color: #444;
+	margin-bottom: 20px;
+}
+@media (max-width: 991.98px) {
+	.footer__apps-desktop {
+		display: none;
+	}
+}
+.footer__apps-mobile {
+	text-align: center;
+}
+@media (min-width: 992px) {
+	.footer__apps-mobile {
+		display: none;
+	}
+}
+.footer__apps-wrap {
+	display: -ms-flexbox;
+	display: box;
+	display: flex;
+	-o-box-pack: center;
+	justify-content: center;
+	-o-box-align: center;
+	align-items: center;
+}
+.footer__apps-link {
+	display: block;
+	margin-bottom: 15px;
+}
+@media (max-width: 991.98px) {
+	.footer__apps-link {
+		margin-left: 5px;
+		margin-right: 5px;
+	}
+}

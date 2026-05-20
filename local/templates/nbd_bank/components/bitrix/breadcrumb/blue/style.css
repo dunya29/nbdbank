@@ -1,0 +1,36 @@
+.breadcrumbs {
+    font-size: 1.6rem;
+    color: #7c98ab;
+    background-color: transparent;
+    padding: 5px 0;
+    display: inline-block;
+    line-height: 1;
+}
+.breadcrumbs a {
+    display: inline-block;
+    font-size: 1.6rem;
+    color: #7c98ab;
+    border-bottom: 1px solid #d9d9d9;
+    line-height: 1;
+    text-decoration: none;
+    transition: all ease-in-out 100ms 0ms;
+}
+.breadcrumbs a:hover,
+.breadcrumbs a:focus {
+    color: #7c98ab;
+    text-decoration: none;
+    border-bottom: 1px solid transparent;
+}
+.breadcrumbs__delimiter {
+    display: inline-block;
+    width: 3px;
+    height: 3px;
+    border-radius: 50%;
+    background-color: #fd8a02;
+    margin-left: 10px;
+    margin-right: 6px;
+    vertical-align: middle;
+}
+.breadcrumbs__inline {
+    display: inline-block;
+}

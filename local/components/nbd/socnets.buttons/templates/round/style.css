@@ -1,0 +1,48 @@
+.social {
+	display: -ms-flexbox;
+	display: box;
+	display: flex;
+	-o-box-align: center;
+	align-items: center;
+}
+.social__text {
+	margin-right: 7px;
+}
+.social__item {
+	display: block;
+	font-size: 0;
+	margin: 0 4px;
+	width: 30px;
+	height: 30px;
+	background-repeat: no-repeat;
+	background-position: center;
+	transition: opacity ease-in-out 200ms 0ms;
+}
+.social__item:hover,
+.social__item:focus {
+	text-decoration: none;
+}
+.social__item_vk {
+	background-image: url("images/vk-icon.png") !important;
+}
+.social__item_ok {
+	background-image: url("images/ok-icon.png") !important;
+}
+.social__item_fb {
+	background-image: url("images/fb-icon.png") !important;
+}
+.social__item_tg {
+	background-image: url("images/tg-icon.png") !important;
+}
+.social__item:hover {
+	opacity: 0.8;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
+	filter: alpha(opacity=80);
+}
+.social_center {
+	-o-box-pack: center;
+	justify-content: center;
+}
+.footer__social {
+	margin-bottom: 45px;
+}

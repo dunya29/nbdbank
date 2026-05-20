@@ -1,0 +1,41 @@
+.client-type__wrap {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.client-type__item {
+    height: 275px;
+}
+
+.client-type__icon::before {
+    width: 134px;
+    height: 134px;
+}
+
+.client-type__icon {
+    margin-bottom: 20px;
+}
+
+.client-type__caption {
+    margin-bottom: 64px;
+}
+
+@media screen and (max-width: 767px) {
+    .client-type__item {
+        height: auto;
+    }
+    .client-type__wrap {
+        display: flex;
+        align-items: center;
+    }
+    .index__clientstype-desktop .col-3 {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .client-type__caption {
+        margin-bottom: 0;
+    }
+    .client-type__icon {
+        margin-bottom: 0;
+    }
+}

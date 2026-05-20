@@ -1,0 +1,21 @@
+<svg width="180" height="180" viewBox="0 0 180 180" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M15 130.165L27.3631 110.296C33.8391 116.575 41.0509 119.715 48.9986 119.715C53.6103 119.715 57.2407 118.734 59.89 116.772C62.6373 114.711 64.011 112.209 64.011 109.265C64.011 101.514 57.486 97.6382 44.436 97.6382H37.077L31.6314 85.1279L45.4663 68.4966C46.9381 66.7304 48.4099 65.0133 49.8817 63.3453C51.4516 61.6772 52.6291 60.4998 53.414 59.8129L54.5915 58.6355V58.3411C52.3347 58.8317 48.9986 59.077 44.5832 59.077H19.4154V37H85.7937V53.0426L64.4525 77.6217C72.204 79.2898 78.3856 82.9202 82.9972 88.5131C87.6089 94.1059 89.9147 100.631 89.9147 108.088C89.9147 117.9 86.4805 126.338 79.6121 133.403C72.8418 140.468 63.2751 144 50.912 144C36.0958 144 24.1252 139.388 15 130.165Z" fill="url(#paint0_linear)"/>
+<mask id="path-2-inside-1" fill="white">
+<rect x="76" y="44.3771" width="63.3964" height="83.0191" rx="1"/>
+</mask>
+<rect x="76" y="44.3771" width="63.3964" height="83.0191" rx="1" fill="#C5E8FF" stroke="#006EB7" stroke-width="8" mask="url(#path-2-inside-1)"/>
+<mask id="path-3-inside-2" fill="white">
+<rect x="92.6038" y="60.9808" width="63.3964" height="83.0191" rx="1"/>
+</mask>
+<rect x="92.6038" y="60.9808" width="63.3964" height="83.0191" rx="1" fill="white" stroke="#006EB7" stroke-width="8" mask="url(#path-3-inside-2)"/>
+<rect x="107.698" y="77.9512" width="33.2076" height="4" fill="#006EB7"/>
+<rect x="107.698" y="93.0455" width="33.2076" height="4" fill="#006EB7"/>
+<rect x="107.698" y="108.14" width="33.2076" height="4" fill="#006EB7"/>
+<rect x="107.698" y="123.234" width="33.2076" height="4" fill="#006EB7"/>
+<defs>
+<linearGradient id="paint0_linear" x1="52.4574" y1="37" x2="52.4574" y2="144" gradientUnits="userSpaceOnUse">
+<stop stop-color="#FD8A02"/>
+<stop offset="1" stop-color="#FFAF00"/>
+</linearGradient>
+</defs>
+</svg>
