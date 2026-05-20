@@ -1297,6 +1297,9 @@ img {
   padding: 10px;
   background: #fd8a02;
 }
+.mobile-menu__item:nth-child(-n+2) svg {
+  fill: #fff;
+}
 .mobile-menu__item:nth-child(-n+2) .mobile-menu__item-caption {
   font-weight: 700;
   color: #fff;
